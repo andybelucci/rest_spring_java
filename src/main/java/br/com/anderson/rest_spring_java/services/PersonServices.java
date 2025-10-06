@@ -56,7 +56,7 @@ public class PersonServices {
     public PersonDTOv2 createV2(Object parseObject) {
 
         logger.info("Creating one Person V2!");
-        var entity = converter.convertDTOtoEntity(parseObject);
+        var entity = converter.convertDTOtoEntity((PersonDTOv2) parseObject);
 
         return converter.convertEntityToDTO(repository.save(entity));
     }
