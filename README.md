@@ -1,0 +1,1 @@
+Este é um projeto de uma API Rest usando tecnologias como Java, Spring Boot, AWS e Docker.  Ainda estou com o curso em andamento mas já implementei muitas diretrizes, como tratamento de exceções "exemplo" e no decorrer vou implementando mais e documentando tudo.
